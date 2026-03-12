@@ -1,0 +1,22 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:web:lrohaut-tdp.github.io",
+  "assertionMethod": [
+    {
+      "id": "did:web:lrohaut-tdp.github.io#05579e97aea41e3f2287123b6fb4f6bb93b08464c9337fd78dd030dafb1f45df",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:lrohaut-tdp.github.io",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "crv": "P-256",
+        "x": "wBseoYPX8xbwoggrNyzwQ_r_HgdkthoG9UZjz6Zhy8c=",
+        "y": "cl7BhaS4-poD_EHUPcha3Y-5Xgf30kmrN4i_CCo7ctU=",
+        "kid": "05579e97aea41e3f2287123b6fb4f6bb93b08464c9337fd78dd030dafb1f45df",
+        "alg": "ES256"
+      }
+    }
+  ]
+}
